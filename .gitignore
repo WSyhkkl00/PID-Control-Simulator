@@ -1,0 +1,47 @@
+# --- CLion 专属文件 ---
+.idea/
+*.iws
+*.iml
+*.ipr
+cmake-build-*/
+out/
+
+# --- 编译生成文件 ---
+build/
+bin/
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.lib
+*.dylib
+
+# --- 对象文件和调试符号 ---
+*.o
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+
+# --- CMake 生成文件 ---
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# --- 运行时和日志 ---
+*.log
+*.tlog
+*.user
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
+
+# --- 本地配置和测试数据 ---
+config.json
+*.settings
+test_data/
