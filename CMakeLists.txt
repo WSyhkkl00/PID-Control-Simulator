@@ -4,8 +4,8 @@ project(SDL_game)
 set(CMAKE_CXX_STANDARD 17)
 
 # 设置SDL2和SDL2_ttf的路径
-set(SDL2_PATH "D:/MyProject/SDL_game/SDL2-devel-2.30.2-mingw/SDL2-2.30.2/x86_64-w64-mingw32")
-set(SDL2_TTF_PATH "D:/MyProject/SDL_game/SDL2_ttf-devel-2.22.0-mingw/SDL2_ttf-2.22.0/x86_64-w64-mingw32")
+set(SDL2_PATH "D:/MyProject/SDL_game/SDL2")
+
 
 # 包含目录
 include_directories(
@@ -15,8 +15,8 @@ include_directories(
 
 # 链接目录
 link_directories(
-        ${SDL2_PATH}/lib
-        ${SDL2_TTF_PATH}/lib
+        ${SDL2_PATH}/lib/SDL
+        ${SDL2_PATH}/lib/SDL_ttf
 )
 
 
