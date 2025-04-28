@@ -6,17 +6,6 @@
 cmake-build-*/
 out/
 
-# --- 编译生成文件 ---
-build/
-bin/
-*.exe
-*.out
-*.a
-*.so
-*.dll
-*.lib
-*.dylib
-
 # --- 对象文件和调试符号 ---
 *.o
 *.obj
